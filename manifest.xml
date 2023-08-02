@@ -13,7 +13,7 @@
                                        that belong to the same product category
             "Monkey C: Edit Products" - Lets you add or remove any product
         -->
-        <iq:products>
+        <iq:products>11
             <iq:product id="fr245"/>
         </iq:products>
 

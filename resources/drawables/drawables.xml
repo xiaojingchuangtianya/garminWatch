@@ -1,3 +1,12 @@
 <drawables>
     <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="BackgroundIcon" filename="backGround_Icon.png" x="center" y="10">
+        <palette disableTransparency="true">
+            <!-- Logo is black on white text, so using four colors to get shading while reducing the color depth to 2 bpp -->
+            <color>FFFFFF</color>
+            <color>AAAAAA</color>
+            <color>555555</color>
+            <color>000000</color>
+        <palette>
+    </bitmap>
 </drawables>

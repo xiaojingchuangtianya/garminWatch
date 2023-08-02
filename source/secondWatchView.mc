@@ -37,7 +37,6 @@ class secondWatchView extends WatchUi.WatchFace {
         setLayout(Rez.Layouts.WatchFace(dc));
         staticDrawables();//将界面静态的东西显示出来
 
-        //试运行图片加载
 
 
     }
