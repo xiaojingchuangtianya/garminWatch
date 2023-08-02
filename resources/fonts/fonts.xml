@@ -1,3 +1,4 @@
 <fonts>
 	<font id="NormalFont" filename="text.fnt" antialias="true"/>
+	<font id="TestFont" filename="weather-icons-24.fnt" antialias="true"/>
 </fonts>	

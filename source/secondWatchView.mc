@@ -1,10 +1,17 @@
 import Toybox.Graphics;
+import Toybox.Time;
+import Toybox.Time.Gregorian;
 import Toybox.Lang;
 import Toybox.System;
 import Toybox.WatchUi;
 
+
 var NormalFont;//默认常规样式
 var backgroundColor;//声明背景颜色
+var offScreenBUffer;
+var testFont;
+
+// (:buffered) private var backgroudBuffer;
 
 class secondWatchView extends WatchUi.WatchFace {
     // 10°以下寒冷，蓝色调
@@ -29,6 +36,10 @@ class secondWatchView extends WatchUi.WatchFace {
         NormalFont=WatchUi.loadResource(Rez.Fonts.NormalFont);//直接做样式更新
         setLayout(Rez.Layouts.WatchFace(dc));
         staticDrawables();//将界面静态的东西显示出来
+
+        //试运行图片加载
+
+
     }
 
     function staticDrawables(){
@@ -48,15 +59,20 @@ class secondWatchView extends WatchUi.WatchFace {
     function onShow() as Void {
     }
 
-    // Update the view
+    // 更新界面（每秒做一次刷新）
     function onUpdate(dc as Dc) as Void {
+
+
         // Get and show the current time
+        var today = Gregorian.info(Time.now(),Time.FORMAT_MEDIUM);
         var clockTime = System.getClockTime();
-        var timeString = Lang.format("$1$:$2$:$3$", [clockTime.hour, clockTime.min.format("%02d"),clockTime.sec]);
+        //他喵的是num类型，直接减2000吧，保证80年不会出问题today.year-2000
+        var timeString = Lang.format("$1$ $2$/$3$ $4$:$5$:$6$", [today.day_of_week,today.month,today.day,clockTime.hour, clockTime.min.format("%02d"),clockTime.sec]);
+        System.println(today.year-2000);
         var view = View.findDrawableById("TimeLabel") as Text;
         view.setText(timeString);
 
-        // Call the parent onUpdate function to redraw the layout
+        // 循环执行，这里需要注意不需要刷新的东西不写进来
         View.onUpdate(dc);
     }
 

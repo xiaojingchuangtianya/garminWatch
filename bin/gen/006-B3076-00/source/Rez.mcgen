@@ -11,6 +11,7 @@ module Rez {
 
     module Fonts {
         (:initialized) var NormalFont as Symbol;
+        (:initialized) var TestFont as Symbol;
     } // Fonts
 
     module JsonData {
@@ -18,7 +19,7 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_custom_drawable_13420160116355515992 = new Background();
+            var rez_cmp_local_custom_drawable_38907001119683627711 = new Background();
 
             var rez_cmp_local_custom_drawable_TemperatureDraw = new Temperature({:posX=>0, :identifier=>"TemperatureDraw", :posY=>0, :width=>112, :height=>110});
 
@@ -26,9 +27,9 @@ module Rez {
 
             var rez_cmp_local_custom_drawable_TimeShowDraw = new TimeShow({:posX=>112, :identifier=>"TimeShowDraw", :posY=>0, :width=>112, :height=>52});
 
-            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>165, :locY=>40, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>220, :locY=>40, :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_MEDIUM});
 
-            return [rez_cmp_local_custom_drawable_13420160116355515992, rez_cmp_local_custom_drawable_TemperatureDraw, rez_cmp_local_custom_drawable_HeartRateDraw, rez_cmp_local_custom_drawable_TimeShowDraw, rez_cmp_local_text_TimeLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_custom_drawable_38907001119683627711, rez_cmp_local_custom_drawable_TemperatureDraw, rez_cmp_local_custom_drawable_HeartRateDraw, rez_cmp_local_custom_drawable_TimeShowDraw, rez_cmp_local_text_TimeLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

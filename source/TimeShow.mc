@@ -17,17 +17,18 @@ class TimeShow extends Ui.Drawable {
 	}
 
 	function draw(dc) {
-		// dc.clear();
-		dc.fillRectangle(0,38, 240,40);
-		// dc.setClip(10, 0, 112, 52);//左侧点
-		// dc.clear();
+		dc.clear();
 		dc.setColor(Graphics.COLOR_DK_GRAY,Graphics.COLOR_TRANSPARENT);
+		// dc.fillRectangle(0,38, 240,40);
+		// dc.setClip(10, 0, 112, 52);//左侧点
+		dc.clear();
+		// dc.setColor(Graphics.COLOR_DK_GRAY,Graphics.COLOR_TRANSPARENT);
 
-		dc.drawText(
-			16, 
-			40, 
-			Graphics.FONT_LARGE,
-			"一月一", 
-			Gfx.TEXT_JUSTIFY_LEFT);	
+	// 	dc.drawText(
+	// 		16, 
+	// 		40, 
+	// 		Graphics.FONT_LARGE,
+	// 		"一月一", 
+	// 		Gfx.TEXT_JUSTIFY_LEFT);	
 	}
 }

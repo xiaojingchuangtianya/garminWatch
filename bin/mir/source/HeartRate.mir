@@ -58,25 +58,17 @@ D_Garmin_secondWatch_source_HeartRate_mc_11_30_stop:
     [ @file = "D:\Garmin\secondWatch\source\HeartRate.mc"; @line = 21; ]
     function draw(dc) {
 D_Garmin_secondWatch_source_HeartRate_mc_21_19_start:
-[ "D:\Garmin\secondWatch\source\HeartRate.mc" 22 2 ]
-        %tmp.1 = lgetv %dc;
-        %tmp.2 = getv function %tmp.1 :setColor;
-        %tmp.4 = getv ? :Graphics;
-        %tmp.5 = getv %tmp.4 :COLOR_BLACK;
-        %tmp.7 = getv ? :Graphics;
-        %tmp.8 = getv %tmp.7 :COLOR_BLUE;
-        invoke %tmp.1 %tmp.2(%tmp.5, %tmp.8);
 [ "D:\Garmin\secondWatch\source\HeartRate.mc" 23 2 ]
-        %tmp.9 = lgetv %dc;
-        %tmp.10 = getv function %tmp.9 :drawText;
-        %tmp.11 = 180;
-        %tmp.12 = 0;
-        %tmp.14 = getv ? :Graphics;
-        %tmp.15 = getv %tmp.14 :FONT_LARGE;
-        %tmp.16 = "heartRate";
-        %tmp.18 = getv ? :Graphics;
-        %tmp.19 = getv %tmp.18 :TEXT_JUSTIFY_CENTER;
-        invoke %tmp.9 %tmp.10(%tmp.11, %tmp.12, %tmp.15, %tmp.16, %tmp.19);
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :drawText;
+        %tmp.3 = 180;
+        %tmp.4 = 0;
+        %tmp.6 = getv ? :Graphics;
+        %tmp.7 = getv %tmp.6 :FONT_LARGE;
+        %tmp.8 = "heartRate";
+        %tmp.10 = getv ? :Graphics;
+        %tmp.11 = getv %tmp.10 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4, %tmp.7, %tmp.8, %tmp.11);
 D_Garmin_secondWatch_source_HeartRate_mc_21_19_stop:
     }
 }

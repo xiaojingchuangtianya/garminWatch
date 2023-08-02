@@ -25,7 +25,8 @@
         <param name="posY">0</param>     
     </drawable>
 
-    <label id="TimeLabel" x="165" y="40" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" > -->
+    <!-- 这里如果将label拆开，不需要更新时不处理会降低一定消耗 -->
+    <label id="TimeLabel" x="220" y="40"  justification="Graphics.TEXT_JUSTIFY_RIGHT" color="Graphics.COLOR_BLUE" > -->
     </label>
 <![CDATA[
 

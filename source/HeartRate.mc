@@ -19,7 +19,7 @@ class HeartRate extends Ui.Drawable {
 
 
 	function draw(dc) {
-		dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLUE);
+		// dc.setColor(Graphics.COLOR_BLACK, Graphics.COLOR_BLUE);
 		dc.drawText(
 			180,                      // gets the width of the device and divides by 2
 			0,                     // gets the height of the device and divides by 2

@@ -4,19 +4,29 @@ using Toybox.WatchUi as :Ui;
 using Toybox.Application as :App;
 [ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 3; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 7; ]
+[ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 4; ]
+using Toybox.Graphics;
+[ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 6; @position = 4; ]
+var screenShape;
+[ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 7; @position = 4; ]
+var offscreenBuffer;
+[ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 8; @position = 4; ]
+var dateBuffer;
+[ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 9; @position = 4; ]
+var testFont;
+[ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 13; ]
 class Background extends Ui.Drawable{
-    [ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 7; ]
+    [ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 13; ]
     <init> {
     }
-    [ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 7; ]
+    [ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 13; ]
     static
     <init> {
     }
-    [ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 9; ]
+    [ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 15; ]
     function initialize() as Void {
-D_Garmin_secondWatch_source_secondBackground_mc_9_23_start:
-[ "D:\Garmin\secondWatch\source\secondBackground.mc" 10 2 ]
+D_Garmin_secondWatch_source_secondBackground_mc_15_23_start:
+[ "D:\Garmin\secondWatch\source\secondBackground.mc" 16 2 ]
         %tmp.2 = getv ? :Drawable;
         %tmp.3 = getv function %tmp.2 :initialize;
         %tmp.4 = newd 1;
@@ -25,27 +35,50 @@ D_Garmin_secondWatch_source_secondBackground_mc_9_23_start:
         %tmp.8 = dup %tmp.4;
         %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
         invoke %tmp.2 %tmp.3(%tmp.9);
-D_Garmin_secondWatch_source_secondBackground_mc_9_23_stop:
+D_Garmin_secondWatch_source_secondBackground_mc_15_23_stop:
     }
-    [ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 13; ]
+    [ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 19; ]
     function draw(dc) {
-D_Garmin_secondWatch_source_secondBackground_mc_13_19_start:
-[ "D:\Garmin\secondWatch\source\secondBackground.mc" 15 8 ]
-        %tmp.2 = getv ? :Graphics;
-        %tmp.3 = getv %tmp.2 :COLOR_ORANGE;
-        putv self :backgroundColor %tmp.3;
-[ "D:\Garmin\secondWatch\source\secondBackground.mc" 16 2 ]
-        %tmp.4 = lgetv %dc;
-        %tmp.5 = getv function %tmp.4 :setColor;
-        %tmp.6 = getm $.Toybox.Graphics;
-        %tmp.7 = getv %tmp.6 :COLOR_TRANSPARENT;
-        %tmp.9 = getv ? :backgroundColor;
-        invoke %tmp.4 %tmp.5(%tmp.7, %tmp.9);
-[ "D:\Garmin\secondWatch\source\secondBackground.mc" 17 2 ]
-        %tmp.10 = lgetv %dc;
-        %tmp.11 = getv function %tmp.10 :clear;
-        invoke %tmp.10 %tmp.11();
-D_Garmin_secondWatch_source_secondBackground_mc_13_19_stop:
+D_Garmin_secondWatch_source_secondBackground_mc_19_19_start:
+[ "D:\Garmin\secondWatch\source\secondBackground.mc" 21 8 ]
+        %tmp.1 = getm $.Toybox.Graphics;
+        %tmp.2 = getv %tmp.1 :COLOR_ORANGE;
+        putv self :backgroundColor %tmp.2;
+[ "D:\Garmin\secondWatch\source\secondBackground.mc" 22 2 ]
+        %tmp.3 = getm $.Toybox.WatchUi;
+        %tmp.4 = getv function %tmp.3 :loadResource;
+        %tmp.6 = getv ? :Rez;
+        %tmp.7 = getv %tmp.6 :Fonts;
+        %tmp.8 = getv %tmp.7 :TestFont;
+        %tmp.9 = invoke %tmp.3 %tmp.4(%tmp.8);
+        putv self :testFont %tmp.9;
+[ "D:\Garmin\secondWatch\source\secondBackground.mc" 23 2 ]
+        %tmp.12 = getm $.Toybox.Graphics;
+        %tmp.13 = getv function ? %tmp.12 :BufferedBitmap;
+        %tmp.14 = 240;
+        %tmp.15 = 240;
+        %tmp.17 = getv ? :testFont;
+        %tmp.10 = newc %tmp.13 (%tmp.14, %tmp.15, %tmp.17);
+        putv self :offscreenBuffer %tmp.10;
+[ "D:\Garmin\secondWatch\source\secondBackground.mc" 25 2 ]
+        %tmp.18 = lgetv %dc;
+        %tmp.19 = getv function %tmp.18 :drawBitmap;
+        %tmp.20 = 0;
+        %tmp.21 = 0;
+        %tmp.23 = getv ? :offscreenBuffer;
+        invoke %tmp.18 %tmp.19(%tmp.20, %tmp.21, %tmp.23);
+[ "D:\Garmin\secondWatch\source\secondBackground.mc" 26 2 ]
+        %tmp.24 = lgetv %dc;
+        %tmp.25 = getv function %tmp.24 :setColor;
+        %tmp.26 = getm $.Toybox.Graphics;
+        %tmp.27 = getv %tmp.26 :COLOR_TRANSPARENT;
+        %tmp.29 = getv ? :backgroundColor;
+        invoke %tmp.24 %tmp.25(%tmp.27, %tmp.29);
+[ "D:\Garmin\secondWatch\source\secondBackground.mc" 27 2 ]
+        %tmp.30 = lgetv %dc;
+        %tmp.31 = getv function %tmp.30 :clear;
+        invoke %tmp.30 %tmp.31();
+D_Garmin_secondWatch_source_secondBackground_mc_19_19_stop:
     }
 }
 [ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 1; ]
