@@ -1,0 +1,60 @@
+import Toybox.Lang;
+using Toybox.WatchUi;
+using Toybox.WatchUi as Ui;
+using Toybox.Graphics;
+using Toybox.Graphics as Gfx;
+
+module Rez {
+    module Drawables {
+        (:initialized) var LauncherIcon as Symbol;
+    } // Drawables
+
+    module Fonts {
+        (:initialized) var NormalFont as Symbol;
+    } // Fonts
+
+    module JsonData {
+    } // JsonData
+
+    module Layouts {
+        function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
+            var rez_cmp_local_custom_drawable_13420160116355515992 = new Background();
+
+            var rez_cmp_local_custom_drawable_TemperatureDraw = new Temperature({:posX=>0, :identifier=>"TemperatureDraw", :posY=>0, :width=>112, :height=>110});
+
+            var rez_cmp_local_custom_drawable_HeartRateDraw = new HeartRate({:posX=>112, :identifier=>"HeartRateDraw", :posY=>0, :width=>112, :height=>52});
+
+            var rez_cmp_local_custom_drawable_TimeShowDraw = new TimeShow({:posX=>112, :identifier=>"TimeShowDraw", :posY=>0, :width=>112, :height=>52});
+
+            var rez_cmp_local_text_TimeLabel = new WatchUi.Text({:identifier=>"TimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>165, :locY=>40, :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            return [rez_cmp_local_custom_drawable_13420160116355515992, rez_cmp_local_custom_drawable_TemperatureDraw, rez_cmp_local_custom_drawable_HeartRateDraw, rez_cmp_local_custom_drawable_TimeShowDraw, rez_cmp_local_text_TimeLabel] as Array<WatchUi.Drawable>;
+        }
+    } // Layouts
+
+    module Menus {
+    } // Menus
+
+    module Strings {
+        (:initialized) var Thu as Symbol;
+        (:initialized) var Jul as Symbol;
+        (:initialized) var Oct as Symbol;
+        (:initialized) var Feb as Symbol;
+        (:initialized) var Apr as Symbol;
+        (:initialized) var Jun as Symbol;
+        (:initialized) var Dec as Symbol;
+        (:initialized) var May as Symbol;
+        (:initialized) var Tue as Symbol;
+        (:initialized) var Sat as Symbol;
+        (:initialized) var Sun as Symbol;
+        (:initialized) var Mon as Symbol;
+        (:initialized) var AppName as Symbol;
+        (:initialized) var Aug as Symbol;
+        (:initialized) var Nov as Symbol;
+        (:initialized) var Jan as Symbol;
+        (:initialized) var Wed as Symbol;
+        (:initialized) var Fri as Symbol;
+        (:initialized) var Mar as Symbol;
+        (:initialized) var Sep as Symbol;
+    } // Strings
+} // Rez

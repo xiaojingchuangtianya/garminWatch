@@ -1,0 +1,93 @@
+[ @file = "D:\Garmin\secondWatch\source\Temperature.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "D:\Garmin\secondWatch\source\Temperature.mc"; @line = 2; ]
+using Toybox.Application as :App;
+[ @file = "D:\Garmin\secondWatch\source\Temperature.mc"; @line = 3; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "D:\Garmin\secondWatch\source\Temperature.mc"; @line = 5; ]
+class Temperature extends Ui.Drawable{
+    [ @file = "D:\Garmin\secondWatch\source\Temperature.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "D:\Garmin\secondWatch\source\Temperature.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\Garmin\secondWatch\source\Temperature.mc"; @line = 7; @position = 13; ]
+    private
+    var Twidth;
+    [ @file = "D:\Garmin\secondWatch\source\Temperature.mc"; @line = 8; @position = 13; ]
+    private
+    var Theight;
+    [ @file = "D:\Garmin\secondWatch\source\Temperature.mc"; @line = 9; @position = 13; ]
+    private
+    var posX;
+    [ @file = "D:\Garmin\secondWatch\source\Temperature.mc"; @line = 10; @position = 13; ]
+    private
+    var posY;
+    [ @file = "D:\Garmin\secondWatch\source\Temperature.mc"; @line = 12; ]
+    function initialize(params) as Void {
+D_Garmin_secondWatch_source_Temperature_mc_12_29_start:
+[ "D:\Garmin\secondWatch\source\Temperature.mc" 13 2 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %params;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "D:\Garmin\secondWatch\source\Temperature.mc" 15 2 ]
+        %tmp.7 = lgetv %params;
+        %tmp.9 = const :width;
+        %tmp.10 = agetv %tmp.7 %tmp.9;
+        putv self :Twidth %tmp.10;
+[ "D:\Garmin\secondWatch\source\Temperature.mc" 16 2 ]
+        %tmp.12 = lgetv %params;
+        %tmp.14 = const :height;
+        %tmp.15 = agetv %tmp.12 %tmp.14;
+        putv self :Theight %tmp.15;
+[ "D:\Garmin\secondWatch\source\Temperature.mc" 17 2 ]
+        %tmp.17 = lgetv %params;
+        %tmp.19 = const :posX;
+        %tmp.20 = agetv %tmp.17 %tmp.19;
+        putv self :posX %tmp.20;
+[ "D:\Garmin\secondWatch\source\Temperature.mc" 18 2 ]
+        %tmp.22 = lgetv %params;
+        %tmp.24 = const :posY;
+        %tmp.25 = agetv %tmp.22 %tmp.24;
+        putv self :posY %tmp.25;
+D_Garmin_secondWatch_source_Temperature_mc_12_29_stop:
+    }
+    [ @file = "D:\Garmin\secondWatch\source\Temperature.mc"; @line = 21; ]
+    function draw(dc) {
+D_Garmin_secondWatch_source_Temperature_mc_21_19_start:
+[ "D:\Garmin\secondWatch\source\Temperature.mc" 27 2 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :fillRectangle;
+        %tmp.3 = 0;
+        %tmp.4 = 0;
+        %tmp.5 = 112;
+        %tmp.6 = 40;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4, %tmp.5, %tmp.6);
+[ "D:\Garmin\secondWatch\source\Temperature.mc" 30 2 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :setColor;
+        %tmp.10 = getv ? :Graphics;
+        %tmp.11 = getv %tmp.10 :COLOR_BLACK;
+        %tmp.13 = getv ? :Graphics;
+        %tmp.14 = getv %tmp.13 :COLOR_DK_GREEN;
+        invoke %tmp.7 %tmp.8(%tmp.11, %tmp.14);
+[ "D:\Garmin\secondWatch\source\Temperature.mc" 31 2 ]
+        %tmp.15 = lgetv %dc;
+        %tmp.16 = getv function %tmp.15 :drawText;
+        %tmp.17 = 120;
+        %tmp.18 = 0;
+        %tmp.20 = getv ? :Graphics;
+        %tmp.21 = getv %tmp.20 :FONT_TINY;
+        %tmp.22 = "  36°C ";
+        %tmp.23 = getm $.Toybox.Graphics;
+        %tmp.24 = getv %tmp.23 :TEXT_JUSTIFY_RIGHT;
+        invoke %tmp.15 %tmp.16(%tmp.17, %tmp.18, %tmp.21, %tmp.22, %tmp.24);
+D_Garmin_secondWatch_source_Temperature_mc_21_19_stop:
+    }
+}
+[ @file = "D:\Garmin\secondWatch\source\Temperature.mc"; @line = 1; ]
+<init> {
+}

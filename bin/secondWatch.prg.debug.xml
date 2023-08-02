@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="D:\Garmin\secondWatch\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="1" lineNum="9" parent="globals/secondWatchView" pc="268435460" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="1" lineNum="14" parent="globals/secondWatchView" pc="268435478" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="1" lineNum="16" parent="globals/secondWatchView" pc="268435531" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="1" lineNum="18" parent="globals/secondWatchView" pc="268435610" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="4" lineNum="28" parent="globals/secondWatchView" pc="268435625" symbol="onLayout"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="4" lineNum="29" parent="globals/secondWatchView" pc="268435627" symbol="onLayout"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="4" lineNum="30" parent="globals/secondWatchView" pc="268435674" symbol="onLayout"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="4" lineNum="31" parent="globals/secondWatchView" pc="268435715" symbol="onLayout"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="6" lineNum="34" parent="globals/secondWatchView" pc="268435728" symbol="staticDrawables"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="6" lineNum="36" parent="globals/secondWatchView" pc="268435730" symbol="staticDrawables"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="6" lineNum="37" parent="globals/secondWatchView" pc="268435770" symbol="staticDrawables"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="6" lineNum="38" parent="globals/secondWatchView" pc="268435810" symbol="staticDrawables"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="7" lineNum="23" parent="globals/secondWatchView" pc="268435851" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="7" lineNum="24" parent="globals/secondWatchView" pc="268435853" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="9" lineNum="42" parent="globals/secondWatchView" pc="268435872" symbol="BatteryPercent"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="10" lineNum="52" parent="globals/secondWatchView" pc="268435875" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="10" lineNum="54" parent="globals/secondWatchView" pc="268435879" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="10" lineNum="55" parent="globals/secondWatchView" pc="268435896" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="10" lineNum="56" parent="globals/secondWatchView" pc="268435986" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="10" lineNum="57" parent="globals/secondWatchView" pc="268436014" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchView.mc" id="10" lineNum="60" parent="globals/secondWatchView" pc="268436028" symbol="onUpdate"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\HeartRate.mc" id="11" lineNum="5" parent="globals/HeartRate" pc="268436053" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\HeartRate.mc" id="12" lineNum="11" parent="globals/HeartRate" pc="268436072" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\HeartRate.mc" id="12" lineNum="12" parent="globals/HeartRate" pc="268436074" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\HeartRate.mc" id="12" lineNum="14" parent="globals/HeartRate" pc="268436094" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\HeartRate.mc" id="12" lineNum="15" parent="globals/HeartRate" pc="268436110" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\HeartRate.mc" id="12" lineNum="16" parent="globals/HeartRate" pc="268436126" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\HeartRate.mc" id="12" lineNum="17" parent="globals/HeartRate" pc="268436142" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\HeartRate.mc" id="13" lineNum="21" parent="globals/HeartRate" pc="268436159" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\HeartRate.mc" id="13" lineNum="22" parent="globals/HeartRate" pc="268436161" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\HeartRate.mc" id="13" lineNum="23" parent="globals/HeartRate" pc="268436183" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\Temperature.mc" id="14" lineNum="5" parent="globals/Temperature" pc="268436221" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\Temperature.mc" id="15" lineNum="12" parent="globals/Temperature" pc="268436240" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\Temperature.mc" id="15" lineNum="13" parent="globals/Temperature" pc="268436242" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\Temperature.mc" id="15" lineNum="15" parent="globals/Temperature" pc="268436262" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\Temperature.mc" id="15" lineNum="16" parent="globals/Temperature" pc="268436278" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\Temperature.mc" id="15" lineNum="17" parent="globals/Temperature" pc="268436294" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\Temperature.mc" id="15" lineNum="18" parent="globals/Temperature" pc="268436310" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\Temperature.mc" id="16" lineNum="21" parent="globals/Temperature" pc="268436327" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\Temperature.mc" id="16" lineNum="27" parent="globals/Temperature" pc="268436329" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\Temperature.mc" id="16" lineNum="30" parent="globals/Temperature" pc="268436361" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\Temperature.mc" id="16" lineNum="31" parent="globals/Temperature" pc="268436383" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchApp.mc" id="17" lineNum="26" parent="globals" pc="268436421" symbol="getApp"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchApp.mc" id="17" lineNum="27" parent="globals" pc="268436431" symbol="getApp"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondBackground.mc" id="18" lineNum="7" parent="globals/Background" pc="268436447" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondBackground.mc" id="19" lineNum="9" parent="globals/Background" pc="268436466" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondBackground.mc" id="19" lineNum="10" parent="globals/Background" pc="268436468" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondBackground.mc" id="20" lineNum="13" parent="globals/Background" pc="268436506" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondBackground.mc" id="20" lineNum="15" parent="globals/Background" pc="268436508" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondBackground.mc" id="20" lineNum="16" parent="globals/Background" pc="268436521" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondBackground.mc" id="20" lineNum="17" parent="globals/Background" pc="268436546" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="21" lineNum="7" parent="globals/Rez" pc="268436559" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchApp.mc" id="22" lineNum="5" parent="globals/secondWatchApp" pc="268436583" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchApp.mc" id="23" lineNum="12" parent="globals/secondWatchApp" pc="268436602" symbol="onStart"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchApp.mc" id="24" lineNum="20" parent="globals/secondWatchApp" pc="268436605" symbol="getInitialView"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchApp.mc" id="24" lineNum="21" parent="globals/secondWatchApp" pc="268436607" symbol="getInitialView"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchApp.mc" id="25" lineNum="7" parent="globals/secondWatchApp" pc="268436648" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchApp.mc" id="25" lineNum="8" parent="globals/secondWatchApp" pc="268436650" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\secondWatchApp.mc" id="26" lineNum="16" parent="globals/secondWatchApp" pc="268436669" symbol="onStop"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\TimeShow.mc" id="27" lineNum="5" parent="globals/TimeShow" pc="268436672" symbol="&lt;init&gt;"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\TimeShow.mc" id="28" lineNum="10" parent="globals/TimeShow" pc="268436691" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\TimeShow.mc" id="28" lineNum="11" parent="globals/TimeShow" pc="268436693" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\TimeShow.mc" id="28" lineNum="13" parent="globals/TimeShow" pc="268436713" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\TimeShow.mc" id="28" lineNum="14" parent="globals/TimeShow" pc="268436729" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\TimeShow.mc" id="28" lineNum="15" parent="globals/TimeShow" pc="268436745" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\TimeShow.mc" id="28" lineNum="16" parent="globals/TimeShow" pc="268436761" symbol="initialize"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\TimeShow.mc" id="29" lineNum="19" parent="globals/TimeShow" pc="268436778" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\TimeShow.mc" id="29" lineNum="21" parent="globals/TimeShow" pc="268436780" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\TimeShow.mc" id="29" lineNum="24" parent="globals/TimeShow" pc="268436812" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\source\\TimeShow.mc" id="29" lineNum="26" parent="globals/TimeShow" pc="268436834" symbol="draw"/>
+        <entry filename="D:\\Garmin\\secondWatch\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="30" lineNum="20" parent="globals/Rez/Layouts" pc="268436872" symbol="WatchFace"/>
+        <entry filename="D:\\Garmin\\secondWatch\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="30" lineNum="21" parent="globals/Rez/Layouts" pc="268436884" symbol="WatchFace"/>
+        <entry filename="D:\\Garmin\\secondWatch\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="30" lineNum="23" parent="globals/Rez/Layouts" pc="268436912" symbol="WatchFace"/>
+        <entry filename="D:\\Garmin\\secondWatch\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="30" lineNum="25" parent="globals/Rez/Layouts" pc="268437011" symbol="WatchFace"/>
+        <entry filename="D:\\Garmin\\secondWatch\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="30" lineNum="27" parent="globals/Rez/Layouts" pc="268437110" symbol="WatchFace"/>
+        <entry filename="D:\\Garmin\\secondWatch\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="30" lineNum="29" parent="globals/Rez/Layouts" pc="268437209" symbol="WatchFace"/>
+        <entry filename="D:\\Garmin\\secondWatch\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="30" lineNum="31" parent="globals/Rez/Layouts" pc="268437321" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry field="true" id="19" symbol="&lt;globals/HeartRate/&lt;&gt;Hwidth&gt;"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="55" symbol="TimeShowDraw"/>
+        <entry id="11" object="true" symbol="Temperature"/>
+        <entry id="7" module="true" symbol="globals/Rez/Menus"/>
+        <entry field="true" id="46" symbol="Oct"/>
+        <entry field="true" id="22" symbol="&lt;globals/Temperature/&lt;&gt;Theight&gt;"/>
+        <entry id="53" symbol="TemperatureDraw"/>
+        <entry field="true" id="16" symbol="&lt;globals/secondWatchView/&lt;&gt;mDrawables&gt;"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="45" symbol="Nov"/>
+        <entry field="true" id="35" symbol="Aug"/>
+        <entry id="9" object="true" symbol="HeartRate"/>
+        <entry field="true" id="34" symbol="Apr"/>
+        <entry field="true" id="8388962" symbol="temperature"/>
+        <entry field="true" id="51" symbol="Tue"/>
+        <entry field="true" id="33" symbol="AppName"/>
+        <entry id="8" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="50" symbol="Thu"/>
+        <entry id="2" module="true" symbol="globals/Rez"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="44" symbol="Mon"/>
+        <entry id="13" object="true" symbol="secondWatchApp"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry field="true" id="8389067" symbol="height"/>
+        <entry field="true" id="49" symbol="Sun"/>
+        <entry id="27" module="true" symbol="Menus"/>
+        <entry id="8389275" method="true" symbol="getApp"/>
+        <entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="8389066" symbol="width"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="43" symbol="May"/>
+        <entry field="true" id="42" symbol="Mar"/>
+        <entry id="15" method="true" symbol="BatteryPercent"/>
+        <entry id="12" object="true" symbol="TimeShow"/>
+        <entry id="8389376" method="true" symbol="onEnterSleep"/>
+        <entry id="54" symbol="HeartRateDraw"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry field="true" id="38" symbol="Fri"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="48" symbol="Sep"/>
+        <entry field="true" id="47" symbol="Sat"/>
+        <entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+        <entry field="true" id="37" symbol="Feb"/>
+        <entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="10" symbol="NormalFont"/>
+        <entry field="true" id="23" symbol="&lt;globals/Temperature/&lt;&gt;Twidth&gt;"/>
+        <entry field="true" id="31" symbol="&lt;globals/TimeShow/&lt;&gt;posY&gt;"/>
+        <entry field="true" id="25" symbol="&lt;globals/Temperature/&lt;&gt;posY&gt;"/>
+        <entry field="true" id="30" symbol="&lt;globals/TimeShow/&lt;&gt;posX&gt;"/>
+        <entry field="true" id="24" symbol="&lt;globals/Temperature/&lt;&gt;posX&gt;"/>
+        <entry id="8389377" method="true" symbol="onExitSleep"/>
+        <entry id="8388644" module="true" symbol="System"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="32" symbol="LauncherIcon"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry field="true" id="29" symbol="&lt;globals/TimeShow/&lt;&gt;Twidth&gt;"/>
+        <entry id="8389123" method="true" symbol="onShow"/>
+        <entry id="14" object="true" symbol="secondWatchView"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry field="true" id="8388960" symbol="heartRate"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry field="true" id="21" symbol="&lt;globals/HeartRate/&lt;&gt;posY&gt;"/>
+        <entry field="true" id="20" symbol="&lt;globals/HeartRate/&lt;&gt;posX&gt;"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry field="true" id="18" symbol="&lt;globals/HeartRate/&lt;&gt;Hheight&gt;"/>
+        <entry field="true" id="41" symbol="Jun"/>
+        <entry field="true" id="40" symbol="Jul"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry field="true" id="36" symbol="Dec"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="28" symbol="&lt;globals/TimeShow/&lt;&gt;Theight&gt;"/>
+        <entry field="true" id="52" symbol="Wed"/>
+        <entry id="17" method="true" symbol="staticDrawables"/>
+        <entry id="57" symbol="posY"/>
+        <entry id="56" symbol="posX"/>
+        <entry id="26" module="true" symbol="Layouts"/>
+        <entry field="true" id="39" symbol="Jan"/>
+        <entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="8389743" symbol="backgroundColor"/>
+        <entry id="8389125" method="true" symbol="onHide"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+    </symbolTable>
+    <localVars>
+        <entry arg="true" endPc="268435727" name="dc" stackId="1" startPc="268435625"/>
+        <entry arg="true" endPc="268436052" name="dc" stackId="1" startPc="268435875"/>
+        <entry endPc="268436051" name="clockTime" stackId="2" startPc="268435879"/>
+        <entry endPc="268436051" name="timeString" stackId="3" startPc="268435879"/>
+        <entry endPc="268436051" name="view" stackId="4" startPc="268435879"/>
+        <entry arg="true" endPc="268436158" name="params" stackId="1" startPc="268436072"/>
+        <entry arg="true" endPc="268436220" name="dc" stackId="1" startPc="268436159"/>
+        <entry arg="true" endPc="268436326" name="params" stackId="1" startPc="268436240"/>
+        <entry arg="true" endPc="268436420" name="dc" stackId="1" startPc="268436327"/>
+        <entry arg="true" endPc="268436558" name="dc" stackId="1" startPc="268436506"/>
+        <entry arg="true" endPc="268436777" name="params" stackId="1" startPc="268436691"/>
+        <entry arg="true" endPc="268436871" name="dc" stackId="1" startPc="268436778"/>
+        <entry arg="true" endPc="268437377" name="dc" stackId="1" startPc="268436872"/>
+        <entry endPc="268437377" name="rez_cmp_local_custom_drawable_13420160116355515992" stackId="2" startPc="268436884"/>
+        <entry endPc="268437377" name="rez_cmp_local_custom_drawable_TemperatureDraw" stackId="3" startPc="268436884"/>
+        <entry endPc="268437377" name="rez_cmp_local_custom_drawable_HeartRateDraw" stackId="4" startPc="268436884"/>
+        <entry endPc="268437377" name="rez_cmp_local_custom_drawable_TimeShowDraw" stackId="5" startPc="268436884"/>
+        <entry endPc="268437377" name="rez_cmp_local_text_TimeLabel" stackId="6" startPc="268436884"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Jan"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Wed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Nov"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Aug"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Sat"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="May"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Mon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Sun"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Oct"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Mar"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Sep"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Fri"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Tue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Apr"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Feb"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Jun"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="NormalFont"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Dec"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Jul"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Thu"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/secondWatchView" offset="206" parentId="globals" symbolId="secondWatchView" type="class"/>
+        <dataEntry label="globals/HeartRate" offset="341" parentId="globals" symbolId="HeartRate" type="class"/>
+        <dataEntry label="globals/Temperature" offset="428" parentId="globals" symbolId="Temperature" type="class"/>
+        <dataEntry label="globals/Background" offset="515" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/Rez" offset="570" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/secondWatchApp" offset="649" parentId="globals" symbolId="secondWatchApp" type="class"/>
+        <dataEntry label="globals/TimeShow" offset="720" parentId="globals" symbolId="TimeShow" type="class"/>
+        <dataEntry label="globals/Rez/Drawables" offset="807" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="846" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="885" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="916" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="955" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="1146" parentId="Rez" symbolId="JsonData" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" endPc="268435624" name="&lt;init&gt;" parent="secondWatchView" startPc="268435460">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onExitSleep" parent="secondWatchView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onShow" parent="secondWatchView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435727" name="onLayout" parent="secondWatchView" startPc="268435625">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onEnterSleep" parent="secondWatchView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435850" name="staticDrawables" parent="secondWatchView" startPc="268435728">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435871" name="initialize" parent="secondWatchView" startPc="268435851">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onHide" parent="secondWatchView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268435874" name="BatteryPercent" parent="secondWatchView" startPc="268435872">
+            <param id="dc"/>
+            <param id="x"/>
+            <param id="y"/>
+            <param id="width"/>
+            <param id="height"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436052" name="onUpdate" parent="secondWatchView" startPc="268435875">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436071" name="&lt;init&gt;" parent="HeartRate" startPc="268436053">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436158" name="initialize" parent="HeartRate" startPc="268436072">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436220" name="draw" parent="HeartRate" startPc="268436159">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436239" name="&lt;init&gt;" parent="Temperature" startPc="268436221">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436326" name="initialize" parent="Temperature" startPc="268436240">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436420" name="draw" parent="Temperature" startPc="268436327">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436446" name="getApp" startPc="268436421">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436465" name="&lt;init&gt;" parent="Background" startPc="268436447">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436505" name="initialize" parent="Background" startPc="268436466">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436558" name="draw" parent="Background" startPc="268436506">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436582" name="&lt;init&gt;" parent="Rez" startPc="268436559">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436601" name="&lt;init&gt;" parent="secondWatchApp" startPc="268436583">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436604" name="onStart" parent="secondWatchApp" startPc="268436602">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436647" name="getInitialView" parent="secondWatchApp" startPc="268436605">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436668" name="initialize" parent="secondWatchApp" startPc="268436648">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436671" name="onStop" parent="secondWatchApp" startPc="268436669">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436690" name="&lt;init&gt;" parent="TimeShow" startPc="268436672">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436777" name="initialize" parent="TimeShow" startPc="268436691">
+            <param id="params"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268436871" name="draw" parent="TimeShow" startPc="268436778">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" endPc="268437377" name="WatchFace" parent="Layouts" startPc="268436872">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>

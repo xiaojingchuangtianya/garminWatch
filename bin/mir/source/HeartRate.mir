@@ -1,0 +1,85 @@
+[ @file = "D:\Garmin\secondWatch\source\HeartRate.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "D:\Garmin\secondWatch\source\HeartRate.mc"; @line = 2; ]
+using Toybox.Application as :App;
+[ @file = "D:\Garmin\secondWatch\source\HeartRate.mc"; @line = 3; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "D:\Garmin\secondWatch\source\HeartRate.mc"; @line = 5; ]
+class HeartRate extends Ui.Drawable{
+    [ @file = "D:\Garmin\secondWatch\source\HeartRate.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "D:\Garmin\secondWatch\source\HeartRate.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\Garmin\secondWatch\source\HeartRate.mc"; @line = 6; @position = 13; ]
+    private
+    var Hwidth;
+    [ @file = "D:\Garmin\secondWatch\source\HeartRate.mc"; @line = 7; @position = 13; ]
+    private
+    var Hheight;
+    [ @file = "D:\Garmin\secondWatch\source\HeartRate.mc"; @line = 8; @position = 13; ]
+    private
+    var posX;
+    [ @file = "D:\Garmin\secondWatch\source\HeartRate.mc"; @line = 9; @position = 13; ]
+    private
+    var posY;
+    [ @file = "D:\Garmin\secondWatch\source\HeartRate.mc"; @line = 11; ]
+    function initialize(params) as Void {
+D_Garmin_secondWatch_source_HeartRate_mc_11_30_start:
+[ "D:\Garmin\secondWatch\source\HeartRate.mc" 12 3 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %params;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "D:\Garmin\secondWatch\source\HeartRate.mc" 14 3 ]
+        %tmp.7 = lgetv %params;
+        %tmp.9 = const :width;
+        %tmp.10 = agetv %tmp.7 %tmp.9;
+        putv self :Hwidth %tmp.10;
+[ "D:\Garmin\secondWatch\source\HeartRate.mc" 15 3 ]
+        %tmp.12 = lgetv %params;
+        %tmp.14 = const :height;
+        %tmp.15 = agetv %tmp.12 %tmp.14;
+        putv self :Hheight %tmp.15;
+[ "D:\Garmin\secondWatch\source\HeartRate.mc" 16 3 ]
+        %tmp.17 = lgetv %params;
+        %tmp.19 = const :posX;
+        %tmp.20 = agetv %tmp.17 %tmp.19;
+        putv self :posX %tmp.20;
+[ "D:\Garmin\secondWatch\source\HeartRate.mc" 17 3 ]
+        %tmp.22 = lgetv %params;
+        %tmp.24 = const :posY;
+        %tmp.25 = agetv %tmp.22 %tmp.24;
+        putv self :posY %tmp.25;
+D_Garmin_secondWatch_source_HeartRate_mc_11_30_stop:
+    }
+    [ @file = "D:\Garmin\secondWatch\source\HeartRate.mc"; @line = 21; ]
+    function draw(dc) {
+D_Garmin_secondWatch_source_HeartRate_mc_21_19_start:
+[ "D:\Garmin\secondWatch\source\HeartRate.mc" 22 2 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.4 = getv ? :Graphics;
+        %tmp.5 = getv %tmp.4 :COLOR_BLACK;
+        %tmp.7 = getv ? :Graphics;
+        %tmp.8 = getv %tmp.7 :COLOR_BLUE;
+        invoke %tmp.1 %tmp.2(%tmp.5, %tmp.8);
+[ "D:\Garmin\secondWatch\source\HeartRate.mc" 23 2 ]
+        %tmp.9 = lgetv %dc;
+        %tmp.10 = getv function %tmp.9 :drawText;
+        %tmp.11 = 180;
+        %tmp.12 = 0;
+        %tmp.14 = getv ? :Graphics;
+        %tmp.15 = getv %tmp.14 :FONT_LARGE;
+        %tmp.16 = "heartRate";
+        %tmp.18 = getv ? :Graphics;
+        %tmp.19 = getv %tmp.18 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.9 %tmp.10(%tmp.11, %tmp.12, %tmp.15, %tmp.16, %tmp.19);
+D_Garmin_secondWatch_source_HeartRate_mc_21_19_stop:
+    }
+}
+[ @file = "D:\Garmin\secondWatch\source\HeartRate.mc"; @line = 1; ]
+<init> {
+}

@@ -1,0 +1,53 @@
+[ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 2; ]
+using Toybox.Application as :App;
+[ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 3; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 7; ]
+class Background extends Ui.Drawable{
+    [ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 9; ]
+    function initialize() as Void {
+D_Garmin_secondWatch_source_secondBackground_mc_9_23_start:
+[ "D:\Garmin\secondWatch\source\secondBackground.mc" 10 2 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = newd 1;
+        %tmp.6 = const :identifier;
+        %tmp.7 = "Background";
+        %tmp.8 = dup %tmp.4;
+        %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
+        invoke %tmp.2 %tmp.3(%tmp.9);
+D_Garmin_secondWatch_source_secondBackground_mc_9_23_stop:
+    }
+    [ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 13; ]
+    function draw(dc) {
+D_Garmin_secondWatch_source_secondBackground_mc_13_19_start:
+[ "D:\Garmin\secondWatch\source\secondBackground.mc" 15 8 ]
+        %tmp.2 = getv ? :Graphics;
+        %tmp.3 = getv %tmp.2 :COLOR_ORANGE;
+        putv self :backgroundColor %tmp.3;
+[ "D:\Garmin\secondWatch\source\secondBackground.mc" 16 2 ]
+        %tmp.4 = lgetv %dc;
+        %tmp.5 = getv function %tmp.4 :setColor;
+        %tmp.6 = getm $.Toybox.Graphics;
+        %tmp.7 = getv %tmp.6 :COLOR_TRANSPARENT;
+        %tmp.9 = getv ? :backgroundColor;
+        invoke %tmp.4 %tmp.5(%tmp.7, %tmp.9);
+[ "D:\Garmin\secondWatch\source\secondBackground.mc" 17 2 ]
+        %tmp.10 = lgetv %dc;
+        %tmp.11 = getv function %tmp.10 :clear;
+        invoke %tmp.10 %tmp.11();
+D_Garmin_secondWatch_source_secondBackground_mc_13_19_stop:
+    }
+}
+[ @file = "D:\Garmin\secondWatch\source\secondBackground.mc"; @line = 1; ]
+<init> {
+}

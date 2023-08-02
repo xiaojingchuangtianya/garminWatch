@@ -1,0 +1,24 @@
+<strings>
+    <string id="AppName">secondWatch</string>
+
+    <string id="Sun">日</string>
+	<string id="Mon">一</string>
+	<string id="Tue">二</string>
+	<string id="Wed">三</string>
+	<string id="Thu">四</string>
+	<string id="Fri">五</string>
+	<string id="Sat">六</string>
+
+	<string id="Jan">1</string>
+	<string id="Feb">2</string>
+	<string id="Mar">3</string>
+	<string id="Apr">4</string>
+	<string id="May">5</string>
+	<string id="Jun">6</string>
+	<string id="Jul">7</string>
+	<string id="Aug">8</string>
+	<string id="Sep">9</string>
+	<string id="Oct">10</string>
+	<string id="Nov">11</string>
+	<string id="Dec">12</string>
+</strings>

@@ -1,0 +1,45 @@
+<layout id="WatchFace">
+    <drawable class="Background" />
+<!-- 将位置参数定义在这个文件里，然后通过view去改变一级动态生成 -->
+    <!-- 温度块 -->
+    <drawable id="TemperatureDraw" class="Temperature">
+        <param name="width">112</param>
+        <param name="height">110</param>
+        <param name="posX">0</param>
+        <param name="posY">0</param>
+    </drawable>
+
+    <!-- 心率块 -->
+    <drawable id="HeartRateDraw" class="HeartRate">
+        <param name="width">112</param>
+        <param name="height">52</param>
+        <param name="posX">112</param>
+        <param name="posY">0</param>
+    </drawable>
+    
+    <!-- 时间块：农历，新历，周几，时间 -->
+    <drawable id="TimeShowDraw" class="TimeShow">
+        <param name="width">112</param>
+        <param name="height">52</param>
+        <param name="posX">112</param>
+        <param name="posY">0</param>     
+    </drawable>
+
+    <label id="TimeLabel" x="165" y="40" font="Graphics.FONT_LARGE" justification="Graphics.TEXT_JUSTIFY_CENTER" color="Graphics.COLOR_BLUE" > -->
+    </label>
+<![CDATA[
+
+
+    <!-- 比较多的数据展示模块 -->
+    <drawable id="DateFieldDraw" class="DateField">
+        
+    </drawable>
+
+]]>
+
+	
+
+    
+
+
+</layout>
