@@ -1,0 +1,7 @@
+<fonts>
+    <!-- date,wideText是粗体数字,chinese是细字显示中文 -->
+    <!-- <font id="textFont" filename="text.fnt"/> -->
+    <font id="DATEFont" filename="wideText.fnt"/>
+    <font id="dateFont" filename="chinese.fnt"/>
+    <font id="iconFont" filename="icon.fnt"/>
+</fonts>

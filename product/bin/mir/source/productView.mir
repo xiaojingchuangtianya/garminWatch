@@ -1,0 +1,184 @@
+[ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 1; ]
+import Toybox.Graphics;
+[ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 2; ]
+import Toybox.Lang;
+[ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 3; ]
+import Toybox.System;
+[ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 4; ]
+import Toybox.WatchUi;
+[ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 5; ]
+import Toybox.Sensor;
+[ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 6; @position = 4; ]
+var DATEFont;
+[ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 8; ]
+class productView extends WatchUi.WatchFace{
+    [ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 8; ]
+    <init> {
+[ "D:\garmin\garminWatch\product\source\productView.mc" 10 16 ]
+        %tmp.1 = newd 0;
+        putv self :mDrawables %tmp.1;
+[ "D:\garmin\garminWatch\product\source\productView.mc" 11 8 ]
+        %tmp.2 = getm $.Toybox.WatchUi;
+        %tmp.3 = getv function %tmp.2 :loadResource;
+        %tmp.5 = getv ? :Rez;
+        %tmp.6 = getv %tmp.5 :Drawables;
+        %tmp.7 = getv %tmp.6 :BackgroundImg;
+        %tmp.8 = invoke %tmp.2 %tmp.3(%tmp.7);
+        putv self :Backgroundimage %tmp.8;
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 8; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 10; @position = 16; ]
+    private
+    var mDrawables;
+    [ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 11; @position = 8; ]
+    var Backgroundimage;
+    [ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 14; ]
+    function initialize() as Void {
+D_garmin_garminWatch_product_source_productView_mc_14_26_start:
+[ "D:\garmin\garminWatch\product\source\productView.mc" 15 8 ]
+        %tmp.2 = getv ? :WatchFace;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        invoke %tmp.2 %tmp.3();
+D_garmin_garminWatch_product_source_productView_mc_14_26_stop:
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 22; ]
+    function onLayout(dc as Dc) as Void {
+D_garmin_garminWatch_product_source_productView_mc_22_40_start:
+[ "D:\garmin\garminWatch\product\source\productView.mc" 23 8 ]
+        %tmp.1 = getm $.Toybox.WatchUi;
+        %tmp.2 = getv function %tmp.1 :loadResource;
+        %tmp.4 = getv ? :Rez;
+        %tmp.5 = getv %tmp.4 :Fonts;
+        %tmp.6 = getv %tmp.5 :DATEFont;
+        %tmp.7 = invoke %tmp.1 %tmp.2(%tmp.6);
+        putv self :DATEFont %tmp.7;
+[ "D:\garmin\garminWatch\product\source\productView.mc" 24 8 ]
+        %tmp.8 = self;
+        %tmp.9 = getv function %tmp.8 :setLayout;
+        %tmp.11 = getv ? :Rez;
+        %tmp.12 = getv %tmp.11 :Layouts;
+        %tmp.13 = getv function %tmp.12 :WatchFace;
+        %tmp.15 = lgetv %dc;
+        %tmp.16 = invoke %tmp.12 %tmp.13(%tmp.15);
+        invoke %tmp.8 %tmp.9(%tmp.16);
+[ "D:\garmin\garminWatch\product\source\productView.mc" 25 8 ]
+        %tmp.17 = getv self :mDrawables;
+        %tmp.19 = getv ? :View;
+        %tmp.20 = getv function %tmp.19 :findDrawableById;
+        %tmp.21 = "TemperatureDraw";
+        %tmp.22 = invoke %tmp.19 %tmp.20(%tmp.21);
+        %tmp.24 = const :TemperatureDraw;
+        aputv %tmp.17 %tmp.24 %tmp.22;
+[ "D:\garmin\garminWatch\product\source\productView.mc" 26 8 ]
+        %tmp.25 = getv self :mDrawables;
+        %tmp.27 = getv ? :View;
+        %tmp.28 = getv function %tmp.27 :findDrawableById;
+        %tmp.29 = "dateNew";
+        %tmp.30 = invoke %tmp.27 %tmp.28(%tmp.29);
+        %tmp.32 = const :daetNew;
+        aputv %tmp.25 %tmp.32 %tmp.30;
+[ "D:\garmin\garminWatch\product\source\productView.mc" 27 8 ]
+        %tmp.33 = getv self :mDrawables;
+        %tmp.35 = getv ? :View;
+        %tmp.36 = getv function %tmp.35 :findDrawableById;
+        %tmp.37 = "dateOld";
+        %tmp.38 = invoke %tmp.35 %tmp.36(%tmp.37);
+        %tmp.40 = const :dateOld;
+        aputv %tmp.33 %tmp.40 %tmp.38;
+D_garmin_garminWatch_product_source_productView_mc_22_40_stop:
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 33; ]
+    function onShow() as Void {
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 38; ]
+    function onUpdate(dc as Dc) as Void {
+D_garmin_garminWatch_product_source_productView_mc_38_40_start:
+[ "D:\garmin\garminWatch\product\source\productView.mc" 41 8 ]
+        [ "D_garmin_garminWatch_product_source_productView_mc_38_40_start" "D_garmin_garminWatch_product_source_productView_mc_38_40_stop" ]
+        %clockTime.1 = local;
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :getClockTime;
+        %tmp.3 = invoke %tmp.1 %tmp.2();
+        lputv %clockTime.1 %tmp.3;
+[ "D:\garmin\garminWatch\product\source\productView.mc" 42 8 ]
+        [ "D_garmin_garminWatch_product_source_productView_mc_38_40_start" "D_garmin_garminWatch_product_source_productView_mc_38_40_stop" ]
+        %timeString.2 = local;
+        %tmp.4 = getm $.Toybox.Lang;
+        %tmp.5 = getv function %tmp.4 :format;
+        %tmp.6 = "$1$:$2$";
+        %tmp.7 = newa 2;
+        %tmp.8 = lgetv %clockTime.1;
+        %tmp.9 = getv %tmp.8 :hour;
+        %tmp.10 = dup %tmp.7;
+        %tmp.11 = aputv %tmp.10 0 %tmp.9;
+        %tmp.12 = lgetv %clockTime.1;
+        %tmp.13 = getv %tmp.12 :min;
+        %tmp.14 = getv function %tmp.13 :format;
+        %tmp.15 = "%02d";
+        %tmp.16 = invoke %tmp.13 %tmp.14(%tmp.15);
+        %tmp.17 = dup %tmp.11;
+        %tmp.18 = aputv %tmp.17 1 %tmp.16;
+        %tmp.19 = invoke %tmp.4 %tmp.5(%tmp.6, %tmp.18);
+        lputv %timeString.2 %tmp.19;
+[ "D:\garmin\garminWatch\product\source\productView.mc" 43 8 ]
+        [ "D_garmin_garminWatch_product_source_productView_mc_38_40_start" "D_garmin_garminWatch_product_source_productView_mc_38_40_stop" ]
+        %view.3 = local;
+        %tmp.21 = getv ? :View;
+        %tmp.22 = getv function %tmp.21 :findDrawableById;
+        %tmp.23 = "TimeLabel";
+        %tmp.24 = invoke %tmp.21 %tmp.22(%tmp.23);
+        %tmp.25 = as %tmp.24 Text;
+        lputv %view.3 %tmp.25;
+[ "D:\garmin\garminWatch\product\source\productView.mc" 44 8 ]
+        %tmp.26 = lgetv %view.3;
+        %tmp.27 = getv function %tmp.26 :setFont;
+        %tmp.29 = getv ? :DATEFont;
+        invoke %tmp.26 %tmp.27(%tmp.29);
+[ "D:\garmin\garminWatch\product\source\productView.mc" 45 8 ]
+        %tmp.30 = lgetv %view.3;
+        %tmp.31 = getv function %tmp.30 :setText;
+        %tmp.33 = lgetv %timeString.2;
+        invoke %tmp.30 %tmp.31(%tmp.33);
+[ "D:\garmin\garminWatch\product\source\productView.mc" 47 8 ]
+        %tmp.34 = self;
+        %tmp.35 = getv function %tmp.34 :showHeartRate;
+        invoke %tmp.34 %tmp.35();
+[ "D:\garmin\garminWatch\product\source\productView.mc" 50 8 ]
+        %tmp.37 = getv ? :View;
+        %tmp.38 = getv function %tmp.37 :onUpdate;
+        %tmp.40 = lgetv %dc;
+        invoke %tmp.37 %tmp.38(%tmp.40);
+D_garmin_garminWatch_product_source_productView_mc_38_40_stop:
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 56; ]
+    function onHide() as Void {
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 60; ]
+    function onExitSleep() as Void {
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 64; ]
+    function onEnterSleep() as Void {
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 68; ]
+    function onHeartRate(sensorInfo as Sensor.Info) as Void {
+D_garmin_garminWatch_product_source_productView_mc_68_60_start:
+[ "D:\garmin\garminWatch\product\source\productView.mc" 69 8 ]
+        %tmp.1 = getm $.Toybox.System;
+        %tmp.2 = getv function %tmp.1 :println;
+        %tmp.3 = "Heart Rate: ";
+        %tmp.4 = lgetv %sensorInfo;
+        %tmp.5 = getv %tmp.4 :heartRate;
+        %tmp.6 = add %tmp.3 %tmp.5;
+        invoke %tmp.1 %tmp.2(%tmp.6);
+D_garmin_garminWatch_product_source_productView_mc_68_60_stop:
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 71; ]
+    function showHeartRate() {
+    }
+}
+[ @file = "D:\garmin\garminWatch\product\source\productView.mc"; @line = 1; ]
+<init> {
+}

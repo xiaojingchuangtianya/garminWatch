@@ -1,0 +1,82 @@
+[ @file = "D:\garmin\garminWatch\product\source\TimeShow.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "D:\garmin\garminWatch\product\source\TimeShow.mc"; @line = 2; ]
+using Toybox.Application as :App;
+[ @file = "D:\garmin\garminWatch\product\source\TimeShow.mc"; @line = 3; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "D:\garmin\garminWatch\product\source\TimeShow.mc"; @line = 5; ]
+class TimeShow extends Ui.Drawable{
+    [ @file = "D:\garmin\garminWatch\product\source\TimeShow.mc"; @line = 5; ]
+    <init> {
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\TimeShow.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\TimeShow.mc"; @line = 6; @position = 13; ]
+    private
+    var Twidth;
+    [ @file = "D:\garmin\garminWatch\product\source\TimeShow.mc"; @line = 7; @position = 13; ]
+    private
+    var Theight;
+    [ @file = "D:\garmin\garminWatch\product\source\TimeShow.mc"; @line = 8; @position = 13; ]
+    private
+    var posX;
+    [ @file = "D:\garmin\garminWatch\product\source\TimeShow.mc"; @line = 9; @position = 13; ]
+    private
+    var posY;
+    [ @file = "D:\garmin\garminWatch\product\source\TimeShow.mc"; @line = 10; ]
+    function initialize(params) as Void {
+D_garmin_garminWatch_product_source_TimeShow_mc_10_29_start:
+[ "D:\garmin\garminWatch\product\source\TimeShow.mc" 11 2 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %params;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "D:\garmin\garminWatch\product\source\TimeShow.mc" 13 2 ]
+        %tmp.7 = lgetv %params;
+        %tmp.9 = const :width;
+        %tmp.10 = agetv %tmp.7 %tmp.9;
+        putv self :Twidth %tmp.10;
+[ "D:\garmin\garminWatch\product\source\TimeShow.mc" 14 2 ]
+        %tmp.12 = lgetv %params;
+        %tmp.14 = const :height;
+        %tmp.15 = agetv %tmp.12 %tmp.14;
+        putv self :Theight %tmp.15;
+[ "D:\garmin\garminWatch\product\source\TimeShow.mc" 15 2 ]
+        %tmp.17 = lgetv %params;
+        %tmp.19 = const :posX;
+        %tmp.20 = agetv %tmp.17 %tmp.19;
+        putv self :posX %tmp.20;
+[ "D:\garmin\garminWatch\product\source\TimeShow.mc" 16 2 ]
+        %tmp.22 = lgetv %params;
+        %tmp.24 = const :posY;
+        %tmp.25 = agetv %tmp.22 %tmp.24;
+        putv self :posY %tmp.25;
+D_garmin_garminWatch_product_source_TimeShow_mc_10_29_stop:
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\TimeShow.mc"; @line = 19; ]
+    function draw(dc) {
+D_garmin_garminWatch_product_source_TimeShow_mc_19_19_start:
+[ "D:\garmin\garminWatch\product\source\TimeShow.mc" 20 2 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :clear;
+        invoke %tmp.1 %tmp.2();
+[ "D:\garmin\garminWatch\product\source\TimeShow.mc" 21 2 ]
+        %tmp.3 = lgetv %dc;
+        %tmp.4 = getv function %tmp.3 :setColor;
+        %tmp.6 = getv ? :Graphics;
+        %tmp.7 = getv %tmp.6 :COLOR_DK_GRAY;
+        %tmp.9 = getv ? :Graphics;
+        %tmp.10 = getv %tmp.9 :COLOR_TRANSPARENT;
+        invoke %tmp.3 %tmp.4(%tmp.7, %tmp.10);
+[ "D:\garmin\garminWatch\product\source\TimeShow.mc" 24 2 ]
+        %tmp.11 = lgetv %dc;
+        %tmp.12 = getv function %tmp.11 :clear;
+        invoke %tmp.11 %tmp.12();
+D_garmin_garminWatch_product_source_TimeShow_mc_19_19_stop:
+    }
+}
+[ @file = "D:\garmin\garminWatch\product\source\TimeShow.mc"; @line = 1; ]
+<init> {
+}

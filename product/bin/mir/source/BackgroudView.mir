@@ -1,0 +1,59 @@
+[ @file = "D:\garmin\garminWatch\product\source\BackgroudView.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "D:\garmin\garminWatch\product\source\BackgroudView.mc"; @line = 2; ]
+using Toybox.Application as :App;
+[ @file = "D:\garmin\garminWatch\product\source\BackgroudView.mc"; @line = 3; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "D:\garmin\garminWatch\product\source\BackgroudView.mc"; @line = 4; ]
+using Toybox.System;
+[ @file = "D:\garmin\garminWatch\product\source\BackgroudView.mc"; @line = 6; ]
+class BackgroudView extends Ui.Drawable{
+    [ @file = "D:\garmin\garminWatch\product\source\BackgroudView.mc"; @line = 6; ]
+    <init> {
+[ "D:\garmin\garminWatch\product\source\BackgroudView.mc" 9 8 ]
+        %tmp.2 = getv ? :WatchUi;
+        %tmp.3 = getv function %tmp.2 :loadResource;
+        %tmp.5 = getv ? :Rez;
+        %tmp.6 = getv %tmp.5 :Drawables;
+        %tmp.7 = getv %tmp.6 :BackgroundImg;
+        %tmp.8 = invoke %tmp.2 %tmp.3(%tmp.7);
+        putv self :Backgroundimage %tmp.8;
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\BackgroudView.mc"; @line = 6; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\BackgroudView.mc"; @line = 7; @position = 8; ]
+    var isShowBackground = false;
+    [ @file = "D:\garmin\garminWatch\product\source\BackgroudView.mc"; @line = 9; @position = 8; ]
+    var Backgroundimage;
+    [ @file = "D:\garmin\garminWatch\product\source\BackgroudView.mc"; @line = 11; ]
+    function initialize() as Void {
+D_garmin_garminWatch_product_source_BackgroudView_mc_11_25_start:
+[ "D:\garmin\garminWatch\product\source\BackgroudView.mc" 12 8 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.4 = newd 1;
+        %tmp.6 = const :identifier;
+        %tmp.7 = "BackgroudView";
+        %tmp.8 = dup %tmp.4;
+        %tmp.9 = aputv %tmp.8 %tmp.6 %tmp.7;
+        invoke %tmp.2 %tmp.3(%tmp.9);
+D_garmin_garminWatch_product_source_BackgroudView_mc_11_25_stop:
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\BackgroudView.mc"; @line = 15; ]
+    function draw(dc) {
+D_garmin_garminWatch_product_source_BackgroudView_mc_15_21_start:
+[ "D:\garmin\garminWatch\product\source\BackgroudView.mc" 18 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :drawBitmap;
+        %tmp.3 = 0;
+        %tmp.4 = 0;
+        %tmp.6 = getv ? :Backgroundimage;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.4, %tmp.6);
+D_garmin_garminWatch_product_source_BackgroudView_mc_15_21_stop:
+    }
+}
+[ @file = "D:\garmin\garminWatch\product\source\BackgroudView.mc"; @line = 1; ]
+<init> {
+}

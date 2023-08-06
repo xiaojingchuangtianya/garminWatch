@@ -1,0 +1,29 @@
+<layout id="WatchFace">
+    <!-- 在底部的必须放在最上方 -->
+    <drawable  class="BackgroudView">
+    </drawable>
+        <!-- 温度块,后续需要接入一个 -->
+    <drawable id="TemperatureDraw" class="Temperature">
+        <param name="x">95</param>
+        <param name="y">6</param>
+    </drawable>
+    <!-- 日期新历 -->
+    <drawable id="dateNew" class="DateNew">
+        <param name="newX">130</param>
+        <param name="newY">6</param>
+    </drawable>
+    <!-- 日期旧历 -->
+    <drawable id="dateOld" class="DateOld">
+        <param name="oldX">155</param>
+        <param name="oldY">26</param>
+    </drawable>
+    <!-- 再加一个时间label -->
+    <label id="TimeLabel" x="145" y="35" justification="Graphics.TEXT_JUSTIFY_CENTER" color="0xff8a03" />
+
+    <drawable>
+
+    </drawable>
+
+
+
+</layout>

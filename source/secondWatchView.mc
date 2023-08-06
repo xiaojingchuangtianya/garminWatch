@@ -22,7 +22,7 @@ class secondWatchView extends WatchUi.WatchFace {
     //静息心率，轻松跑，马拉松心率，乳酸门槛跑，间歇跑（暂时按自己的区间定）
     var heartRate=[65,78,130,150,180];
 
-    private var mDrawables={};//一个存储所有可修改组件的列表
+    
 
 
 

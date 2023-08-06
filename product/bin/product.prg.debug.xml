@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="D:\garmin\garminWatch\product\manifest.xml"/>
+<pcToLineNum>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="1" lineNum="5" parent="globals/Temperature" pc="268435460" symbol="&lt;init&gt;"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="1" lineNum="12" parent="globals/Temperature" pc="268435478" symbol="&lt;init&gt;"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="1" lineNum="13" parent="globals/Temperature" pc="268435544" symbol="&lt;init&gt;"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="2" lineNum="15" parent="globals/Temperature" pc="268435624" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="2" lineNum="16" parent="globals/Temperature" pc="268435626" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="2" lineNum="18" parent="globals/Temperature" pc="268435646" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="2" lineNum="19" parent="globals/Temperature" pc="268435662" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="3" lineNum="25" parent="globals/Temperature" pc="268435679" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="3" lineNum="26" parent="globals/Temperature" pc="268435681" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="3" lineNum="27" parent="globals/Temperature" pc="268435698" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="3" lineNum="28" parent="globals/Temperature" pc="268435723" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="3" lineNum="29" parent="globals/Temperature" pc="268435740" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="3" lineNum="30" parent="globals/Temperature" pc="268435765" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="3" lineNum="31" parent="globals/Temperature" pc="268435782" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="3" lineNum="32" parent="globals/Temperature" pc="268435807" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="3" lineNum="33" parent="globals/Temperature" pc="268435824" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="3" lineNum="35" parent="globals/Temperature" pc="268435849" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\Temperature.mc" id="3" lineNum="38" parent="globals/Temperature" pc="268435871" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productApp.mc" id="5" lineNum="26" parent="globals" pc="268435927" symbol="getApp"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productApp.mc" id="5" lineNum="27" parent="globals" pc="268435937" symbol="getApp"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateOld.mc" id="6" lineNum="7" parent="globals/DateOld" pc="268435953" symbol="&lt;init&gt;"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateOld.mc" id="8" lineNum="12" parent="globals/DateOld" pc="268435972" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateOld.mc" id="8" lineNum="13" parent="globals/DateOld" pc="268435974" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateOld.mc" id="8" lineNum="14" parent="globals/DateOld" pc="268435994" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateOld.mc" id="8" lineNum="15" parent="globals/DateOld" pc="268436041" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateOld.mc" id="8" lineNum="17" parent="globals/DateOld" pc="268436088" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateOld.mc" id="8" lineNum="18" parent="globals/DateOld" pc="268436104" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateOld.mc" id="9" lineNum="20" parent="globals/DateOld" pc="268436121" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateOld.mc" id="9" lineNum="21" parent="globals/DateOld" pc="268436123" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateOld.mc" id="9" lineNum="22" parent="globals/DateOld" pc="268436145" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateOld.mc" id="9" lineNum="24" parent="globals/DateOld" pc="268436191" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="10" lineNum="7" parent="globals/Rez" pc="268436232" symbol="&lt;init&gt;"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\BackgroudView.mc" id="11" lineNum="6" parent="globals/BackgroudView" pc="268436256" symbol="&lt;init&gt;"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\BackgroudView.mc" id="11" lineNum="9" parent="globals/BackgroudView" pc="268436274" symbol="&lt;init&gt;"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\BackgroudView.mc" id="12" lineNum="11" parent="globals/BackgroudView" pc="268436324" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\BackgroudView.mc" id="12" lineNum="12" parent="globals/BackgroudView" pc="268436326" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\BackgroudView.mc" id="13" lineNum="15" parent="globals/BackgroudView" pc="268436364" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\BackgroudView.mc" id="13" lineNum="18" parent="globals/BackgroudView" pc="268436366" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="14" lineNum="8" parent="globals/productView" pc="268436397" symbol="&lt;init&gt;"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="14" lineNum="10" parent="globals/productView" pc="268436415" symbol="&lt;init&gt;"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="14" lineNum="11" parent="globals/productView" pc="268436429" symbol="&lt;init&gt;"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="18" lineNum="22" parent="globals/productView" pc="268436477" symbol="onLayout"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="18" lineNum="23" parent="globals/productView" pc="268436479" symbol="onLayout"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="18" lineNum="24" parent="globals/productView" pc="268436526" symbol="onLayout"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="18" lineNum="25" parent="globals/productView" pc="268436567" symbol="onLayout"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="18" lineNum="26" parent="globals/productView" pc="268436607" symbol="onLayout"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="18" lineNum="27" parent="globals/productView" pc="268436647" symbol="onLayout"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="20" lineNum="14" parent="globals/productView" pc="268436688" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="20" lineNum="15" parent="globals/productView" pc="268436690" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="22" lineNum="68" parent="globals/productView" pc="268436709" symbol="onHeartRate"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="22" lineNum="69" parent="globals/productView" pc="268436711" symbol="onHeartRate"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="23" lineNum="38" parent="globals/productView" pc="268436742" symbol="onUpdate"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="23" lineNum="41" parent="globals/productView" pc="268436746" symbol="onUpdate"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="23" lineNum="42" parent="globals/productView" pc="268436763" symbol="onUpdate"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="23" lineNum="43" parent="globals/productView" pc="268436837" symbol="onUpdate"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="23" lineNum="44" parent="globals/productView" pc="268436865" symbol="onUpdate"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="23" lineNum="45" parent="globals/productView" pc="268436885" symbol="onUpdate"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="23" lineNum="47" parent="globals/productView" pc="268436899" symbol="onUpdate"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productView.mc" id="23" lineNum="50" parent="globals/productView" pc="268436911" symbol="onUpdate"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateNew.mc" id="24" lineNum="7" parent="globals/DateNew" pc="268436936" symbol="&lt;init&gt;"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateNew.mc" id="25" lineNum="12" parent="globals/DateNew" pc="268436955" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateNew.mc" id="25" lineNum="13" parent="globals/DateNew" pc="268436957" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateNew.mc" id="25" lineNum="16" parent="globals/DateNew" pc="268436977" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateNew.mc" id="25" lineNum="17" parent="globals/DateNew" pc="268436993" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateNew.mc" id="26" lineNum="20" parent="globals/DateNew" pc="268437010" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateNew.mc" id="26" lineNum="21" parent="globals/DateNew" pc="268437012" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\DateNew.mc" id="26" lineNum="22" parent="globals/DateNew" pc="268437034" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\TimeShow.mc" id="27" lineNum="5" parent="globals/TimeShow" pc="268437081" symbol="&lt;init&gt;"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\TimeShow.mc" id="28" lineNum="10" parent="globals/TimeShow" pc="268437100" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\TimeShow.mc" id="28" lineNum="11" parent="globals/TimeShow" pc="268437102" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\TimeShow.mc" id="28" lineNum="13" parent="globals/TimeShow" pc="268437122" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\TimeShow.mc" id="28" lineNum="14" parent="globals/TimeShow" pc="268437138" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\TimeShow.mc" id="28" lineNum="15" parent="globals/TimeShow" pc="268437154" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\TimeShow.mc" id="28" lineNum="16" parent="globals/TimeShow" pc="268437170" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\TimeShow.mc" id="29" lineNum="19" parent="globals/TimeShow" pc="268437187" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\TimeShow.mc" id="29" lineNum="20" parent="globals/TimeShow" pc="268437189" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\TimeShow.mc" id="29" lineNum="21" parent="globals/TimeShow" pc="268437201" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\TimeShow.mc" id="29" lineNum="24" parent="globals/TimeShow" pc="268437223" symbol="draw"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productApp.mc" id="30" lineNum="5" parent="globals/productApp" pc="268437236" symbol="&lt;init&gt;"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productApp.mc" id="31" lineNum="12" parent="globals/productApp" pc="268437255" symbol="onStart"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productApp.mc" id="32" lineNum="20" parent="globals/productApp" pc="268437258" symbol="getInitialView"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productApp.mc" id="32" lineNum="21" parent="globals/productApp" pc="268437260" symbol="getInitialView"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productApp.mc" id="33" lineNum="7" parent="globals/productApp" pc="268437301" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productApp.mc" id="33" lineNum="8" parent="globals/productApp" pc="268437303" symbol="initialize"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\source\\productApp.mc" id="34" lineNum="16" parent="globals/productApp" pc="268437322" symbol="onStop"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="35" lineNum="23" parent="globals/Rez/Layouts" pc="268437325" symbol="WatchFace"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="35" lineNum="24" parent="globals/Rez/Layouts" pc="268437337" symbol="WatchFace"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="35" lineNum="26" parent="globals/Rez/Layouts" pc="268437365" symbol="WatchFace"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="35" lineNum="28" parent="globals/Rez/Layouts" pc="268437438" symbol="WatchFace"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="35" lineNum="30" parent="globals/Rez/Layouts" pc="268437511" symbol="WatchFace"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="35" lineNum="32" parent="globals/Rez/Layouts" pc="268437584" symbol="WatchFace"/>
+<entry filename="D:\\garmin\\garminWatch\\product\\bin\\gen\\006-B3076-00\\source\\Rez.mcgen" id="35" lineNum="35" parent="globals/Rez/Layouts" pc="268437696" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry field="true" id="30" symbol="Backgroundimage"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="13" object="true" symbol="Temperature"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry field="true" id="21" symbol="tempArray"/>
+<entry id="17" object="true" symbol="productView"/>
+<entry id="24" method="true" symbol="getNowDay"/>
+<entry id="34" method="true" symbol="showHeartRate"/>
+<entry field="true" id="36" symbol="newY"/>
+<entry field="true" id="35" symbol="newX"/>
+<entry id="44" symbol="TemperatureDraw"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="12" object="true" symbol="DateOld"/>
+<entry field="true" id="43" symbol="AppName"/>
+<entry field="true" id="10" symbol="DATEFont"/>
+<entry id="45" symbol="daetNew"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry field="true" id="27" symbol="oldY"/>
+<entry field="true" id="26" symbol="oldX"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry id="20" method="true" symbol="getTemperature"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="33" method="true" symbol="onHeartRate"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry field="true" id="23" symbol="&lt;globals/Temperature/&lt;&gt;tempNum&gt;"/>
+<entry field="true" id="8389067" symbol="height"/>
+<entry id="29" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry field="true" id="8389066" symbol="width"/>
+<entry id="11" object="true" symbol="DateNew"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="14" object="true" symbol="TimeShow"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry field="true" id="40" symbol="&lt;globals/TimeShow/&lt;&gt;posY&gt;"/>
+<entry field="true" id="39" symbol="&lt;globals/TimeShow/&lt;&gt;posX&gt;"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry field="true" id="41" symbol="BackgroundImg"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry field="true" id="25" symbol="iconFont"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry id="8389068" method="true" symbol="draw"/>
+<entry field="true" id="42" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry field="true" id="38" symbol="&lt;globals/TimeShow/&lt;&gt;Twidth&gt;"/>
+<entry field="true" id="31" symbol="isShowBackground"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8388643" module="true" symbol="Sensor"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="16" object="true" symbol="productApp"/>
+<entry id="46" symbol="dateOld"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="15" symbol="dateFont"/>
+<entry field="true" id="22" symbol="tempColor"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry field="true" id="32" symbol="&lt;globals/productView/&lt;&gt;mDrawables&gt;"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="37" symbol="&lt;globals/TimeShow/&lt;&gt;Theight&gt;"/>
+<entry id="48" symbol="posY"/>
+<entry id="47" symbol="posX"/>
+<entry id="28" module="true" symbol="Layouts"/>
+<entry field="true" id="19" symbol="&lt;globals/Temperature/&lt;&gt;TempY&gt;"/>
+<entry id="9" object="true" symbol="BackgroudView"/>
+<entry field="true" id="18" symbol="&lt;globals/Temperature/&lt;&gt;TempX&gt;"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+<entry field="true" id="8390079" symbol="y"/>
+<entry field="true" id="8390078" symbol="x"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435678" name="params" stackId="1" startPc="268435624"/>
+<entry arg="true" endPc="268435926" name="dc" stackId="1" startPc="268435679"/>
+<entry arg="true" endPc="268436120" name="params" stackId="1" startPc="268435972"/>
+<entry arg="true" endPc="268436231" name="dc" stackId="1" startPc="268436121"/>
+<entry arg="true" endPc="268436396" name="dc" stackId="1" startPc="268436364"/>
+<entry arg="true" endPc="268436687" name="dc" stackId="1" startPc="268436477"/>
+<entry arg="true" endPc="268436741" name="sensorInfo" stackId="1" startPc="268436709"/>
+<entry arg="true" endPc="268436935" name="dc" stackId="1" startPc="268436742"/>
+<entry endPc="268436934" name="clockTime" stackId="2" startPc="268436746"/>
+<entry endPc="268436934" name="timeString" stackId="3" startPc="268436746"/>
+<entry endPc="268436934" name="view" stackId="4" startPc="268436746"/>
+<entry arg="true" endPc="268437009" name="params" stackId="1" startPc="268436955"/>
+<entry arg="true" endPc="268437080" name="dc" stackId="1" startPc="268437010"/>
+<entry arg="true" endPc="268437186" name="params" stackId="1" startPc="268437100"/>
+<entry arg="true" endPc="268437235" name="dc" stackId="1" startPc="268437187"/>
+<entry arg="true" endPc="268437752" name="dc" stackId="1" startPc="268437325"/>
+<entry endPc="268437752" name="rez_cmp_local_custom_drawable_77701275240388764816" stackId="2" startPc="268437337"/>
+<entry endPc="268437752" name="rez_cmp_local_custom_drawable_TemperatureDraw" stackId="3" startPc="268437337"/>
+<entry endPc="268437752" name="rez_cmp_local_custom_drawable_dateNew" stackId="4" startPc="268437337"/>
+<entry endPc="268437752" name="rez_cmp_local_custom_drawable_dateOld" stackId="5" startPc="268437337"/>
+<entry endPc="268437752" name="rez_cmp_local_text_TimeLabel" stackId="6" startPc="268437337"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="dateFont"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="iconFont"/>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="BackgroundImg"/>
+<annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="DATEFont"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/Temperature" offset="214" parentId="globals" symbolId="Temperature" type="class"/>
+<dataEntry label="globals/DateOld" offset="317" parentId="globals" symbolId="DateOld" type="class"/>
+<dataEntry label="globals/Rez" offset="404" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/BackgroudView" offset="483" parentId="globals" symbolId="BackgroudView" type="class"/>
+<dataEntry label="globals/productView" offset="554" parentId="globals" symbolId="productView" type="class"/>
+<dataEntry label="globals/DateNew" offset="681" parentId="globals" symbolId="DateNew" type="class"/>
+<dataEntry label="globals/TimeShow" offset="752" parentId="globals" symbolId="TimeShow" type="class"/>
+<dataEntry label="globals/productApp" offset="839" parentId="globals" symbolId="productApp" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="910" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="957" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="996" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="1027" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="1082" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="1121" parentId="Rez" symbolId="JsonData" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435623" name="&lt;init&gt;" parent="Temperature" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435678" name="initialize" parent="Temperature" startPc="268435624">
+<param id="params"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435926" name="draw" parent="Temperature" startPc="268435679">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getTemperature" parent="Temperature">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435952" name="getApp" startPc="268435927">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435971" name="&lt;init&gt;" parent="DateOld" startPc="268435953">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="getNowDay" parent="DateOld">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436120" name="initialize" parent="DateOld" startPc="268435972">
+<param id="params"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436231" name="draw" parent="DateOld" startPc="268436121">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436255" name="&lt;init&gt;" parent="Rez" startPc="268436232">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436323" name="&lt;init&gt;" parent="BackgroudView" startPc="268436256">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436363" name="initialize" parent="BackgroudView" startPc="268436324">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436396" name="draw" parent="BackgroudView" startPc="268436364">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436476" name="&lt;init&gt;" parent="productView" startPc="268436397">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="productView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="showHeartRate" parent="productView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="productView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436687" name="onLayout" parent="productView" startPc="268436477">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="productView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436708" name="initialize" parent="productView" startPc="268436688">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="productView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436741" name="onHeartRate" parent="productView" startPc="268436709">
+<param id="sensorInfo"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436935" name="onUpdate" parent="productView" startPc="268436742">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436954" name="&lt;init&gt;" parent="DateNew" startPc="268436936">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437009" name="initialize" parent="DateNew" startPc="268436955">
+<param id="params"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437080" name="draw" parent="DateNew" startPc="268437010">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437099" name="&lt;init&gt;" parent="TimeShow" startPc="268437081">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437186" name="initialize" parent="TimeShow" startPc="268437100">
+<param id="params"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437235" name="draw" parent="TimeShow" startPc="268437187">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437254" name="&lt;init&gt;" parent="productApp" startPc="268437236">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437257" name="onStart" parent="productApp" startPc="268437255">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437300" name="getInitialView" parent="productApp" startPc="268437258">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437321" name="initialize" parent="productApp" startPc="268437301">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437324" name="onStop" parent="productApp" startPc="268437322">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437752" name="WatchFace" parent="Layouts" startPc="268437325">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

@@ -1,0 +1,190 @@
+[ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 2; ]
+using Toybox.Application as :App;
+[ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 3; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 5; ]
+class Temperature extends Ui.Drawable{
+    [ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 5; ]
+    <init> {
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 12 5 ]
+        %tmp.1 = newa 4;
+        %tmp.2 = -4;
+        %tmp.3 = dup %tmp.1;
+        %tmp.4 = aputv %tmp.3 0 %tmp.2;
+        %tmp.5 = 12;
+        %tmp.6 = dup %tmp.4;
+        %tmp.7 = aputv %tmp.6 1 %tmp.5;
+        %tmp.8 = 22;
+        %tmp.9 = dup %tmp.7;
+        %tmp.10 = aputv %tmp.9 2 %tmp.8;
+        %tmp.11 = 31;
+        %tmp.12 = dup %tmp.10;
+        %tmp.13 = aputv %tmp.12 3 %tmp.11;
+        putv self :tempArray %tmp.13;
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 13 5 ]
+        %tmp.14 = newa 5;
+        %tmp.15 = 0x531aff;
+        %tmp.16 = dup %tmp.14;
+        %tmp.17 = aputv %tmp.16 0 %tmp.15;
+        %tmp.18 = 0x31e88c;
+        %tmp.19 = dup %tmp.17;
+        %tmp.20 = aputv %tmp.19 1 %tmp.18;
+        %tmp.21 = 0xd3ff4d;
+        %tmp.22 = dup %tmp.20;
+        %tmp.23 = aputv %tmp.22 2 %tmp.21;
+        %tmp.24 = 0xffa54d;
+        %tmp.25 = dup %tmp.23;
+        %tmp.26 = aputv %tmp.25 3 %tmp.24;
+        %tmp.27 = 0xff8c66;
+        %tmp.28 = dup %tmp.26;
+        %tmp.29 = aputv %tmp.28 4 %tmp.27;
+        putv self :tempColor %tmp.29;
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 5; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 7; @position = 13; ]
+    private
+    var TempX;
+    [ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 8; @position = 13; ]
+    private
+    var TempY;
+    [ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 10; @position = 13; ]
+    private
+    var tempNum = 30;
+    [ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 12; @position = 5; ]
+    var tempArray;
+    [ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 13; @position = 5; ]
+    var tempColor;
+    [ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 15; ]
+    function initialize(params) as Void {
+D_garmin_garminWatch_product_source_Temperature_mc_15_29_start:
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 16 2 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %params;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 18 2 ]
+        %tmp.7 = lgetv %params;
+        %tmp.9 = const :x;
+        %tmp.10 = agetv %tmp.7 %tmp.9;
+        putv self :TempX %tmp.10;
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 19 2 ]
+        %tmp.12 = lgetv %params;
+        %tmp.14 = const :y;
+        %tmp.15 = agetv %tmp.12 %tmp.14;
+        putv self :TempY %tmp.15;
+D_garmin_garminWatch_product_source_Temperature_mc_15_29_stop:
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 21; ]
+    function getTemperature() {
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 25; ]
+    function draw(dc) {
+D_garmin_garminWatch_product_source_Temperature_mc_25_19_start:
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 26 2 ]
+D_garmin_garminWatch_product_source_Temperature_mc_26_2_if_stmt:
+        %tmp.2 = getv ? :tempNum;
+        %tmp.3 = -4;
+        %tmp.4 = lte %tmp.2 %tmp.3;
+        bf %tmp.4 @D_garmin_garminWatch_product_source_Temperature_mc_26_2_if_false;
+D_garmin_garminWatch_product_source_Temperature_mc_26_2_if_true:
+D_garmin_garminWatch_product_source_Temperature_mc_26_18_start:
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 27 3 ]
+        %tmp.5 = lgetv %dc;
+        %tmp.6 = getv function %tmp.5 :setColor;
+        %tmp.7 = 0x531aff;
+        %tmp.9 = getv ? :Graphics;
+        %tmp.10 = getv %tmp.9 :COLOR_TRANSPARENT;
+        invoke %tmp.5 %tmp.6(%tmp.7, %tmp.10);
+D_garmin_garminWatch_product_source_Temperature_mc_26_18_stop:
+        goto @D_garmin_garminWatch_product_source_Temperature_mc_26_2_if_end;
+D_garmin_garminWatch_product_source_Temperature_mc_26_2_if_false:
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 28 8 ]
+D_garmin_garminWatch_product_source_Temperature_mc_28_8_if_stmt:
+        %tmp.12 = getv ? :tempNum;
+        %tmp.13 = 12;
+        %tmp.14 = lt %tmp.12 %tmp.13;
+        bf %tmp.14 @D_garmin_garminWatch_product_source_Temperature_mc_28_8_if_false;
+D_garmin_garminWatch_product_source_Temperature_mc_28_8_if_true:
+D_garmin_garminWatch_product_source_Temperature_mc_28_22_start:
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 29 3 ]
+        %tmp.15 = lgetv %dc;
+        %tmp.16 = getv function %tmp.15 :setColor;
+        %tmp.17 = 0x31e88c;
+        %tmp.19 = getv ? :Graphics;
+        %tmp.20 = getv %tmp.19 :COLOR_TRANSPARENT;
+        invoke %tmp.15 %tmp.16(%tmp.17, %tmp.20);
+D_garmin_garminWatch_product_source_Temperature_mc_28_22_stop:
+        goto @D_garmin_garminWatch_product_source_Temperature_mc_28_8_if_end;
+D_garmin_garminWatch_product_source_Temperature_mc_28_8_if_false:
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 30 8 ]
+D_garmin_garminWatch_product_source_Temperature_mc_30_8_if_stmt:
+        %tmp.22 = getv ? :tempNum;
+        %tmp.23 = 22;
+        %tmp.24 = lt %tmp.22 %tmp.23;
+        bf %tmp.24 @D_garmin_garminWatch_product_source_Temperature_mc_30_8_if_false;
+D_garmin_garminWatch_product_source_Temperature_mc_30_8_if_true:
+D_garmin_garminWatch_product_source_Temperature_mc_30_22_start:
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 31 3 ]
+        %tmp.25 = lgetv %dc;
+        %tmp.26 = getv function %tmp.25 :setColor;
+        %tmp.27 = 0xd3ff4d;
+        %tmp.29 = getv ? :Graphics;
+        %tmp.30 = getv %tmp.29 :COLOR_TRANSPARENT;
+        invoke %tmp.25 %tmp.26(%tmp.27, %tmp.30);
+D_garmin_garminWatch_product_source_Temperature_mc_30_22_stop:
+        goto @D_garmin_garminWatch_product_source_Temperature_mc_30_8_if_end;
+D_garmin_garminWatch_product_source_Temperature_mc_30_8_if_false:
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 32 8 ]
+D_garmin_garminWatch_product_source_Temperature_mc_32_8_if_stmt:
+        %tmp.32 = getv ? :tempNum;
+        %tmp.33 = 31;
+        %tmp.34 = lt %tmp.32 %tmp.33;
+        bf %tmp.34 @D_garmin_garminWatch_product_source_Temperature_mc_32_8_if_false;
+D_garmin_garminWatch_product_source_Temperature_mc_32_8_if_true:
+D_garmin_garminWatch_product_source_Temperature_mc_32_22_start:
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 33 3 ]
+        %tmp.35 = lgetv %dc;
+        %tmp.36 = getv function %tmp.35 :setColor;
+        %tmp.37 = 0xCC6938;
+        %tmp.39 = getv ? :Graphics;
+        %tmp.40 = getv %tmp.39 :COLOR_TRANSPARENT;
+        invoke %tmp.35 %tmp.36(%tmp.37, %tmp.40);
+D_garmin_garminWatch_product_source_Temperature_mc_32_22_stop:
+        goto @D_garmin_garminWatch_product_source_Temperature_mc_32_8_if_end;
+D_garmin_garminWatch_product_source_Temperature_mc_32_8_if_false:
+D_garmin_garminWatch_product_source_Temperature_mc_34_7_start:
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 35 3 ]
+        %tmp.41 = lgetv %dc;
+        %tmp.42 = getv function %tmp.41 :setColor;
+        %tmp.43 = 0xAD0000;
+        %tmp.45 = getv ? :Graphics;
+        %tmp.46 = getv %tmp.45 :COLOR_TRANSPARENT;
+        invoke %tmp.41 %tmp.42(%tmp.43, %tmp.46);
+D_garmin_garminWatch_product_source_Temperature_mc_34_7_stop:
+D_garmin_garminWatch_product_source_Temperature_mc_32_8_if_end:
+D_garmin_garminWatch_product_source_Temperature_mc_30_8_if_end:
+D_garmin_garminWatch_product_source_Temperature_mc_28_8_if_end:
+D_garmin_garminWatch_product_source_Temperature_mc_26_2_if_end:
+[ "D:\garmin\garminWatch\product\source\Temperature.mc" 38 2 ]
+        %tmp.47 = lgetv %dc;
+        %tmp.48 = getv function %tmp.47 :drawText;
+        %tmp.50 = getv ? :TempX;
+        %tmp.52 = getv ? :TempY;
+        %tmp.54 = getv ? :DATEFont;
+        %tmp.56 = getv ? :tempNum;
+        %tmp.57 = "°C";
+        %tmp.58 = add %tmp.56 %tmp.57;
+        %tmp.60 = getv ? :Graphics;
+        %tmp.61 = getv %tmp.60 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.47 %tmp.48(%tmp.50, %tmp.52, %tmp.54, %tmp.58, %tmp.61);
+D_garmin_garminWatch_product_source_Temperature_mc_25_19_stop:
+    }
+}
+[ @file = "D:\garmin\garminWatch\product\source\Temperature.mc"; @line = 1; ]
+<init> {
+}

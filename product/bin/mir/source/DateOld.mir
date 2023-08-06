@@ -1,0 +1,100 @@
+[ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 2; ]
+using Toybox.Application as :App;
+[ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 3; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 4; ]
+using Toybox.System;
+[ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 5; @position = 4; ]
+var dateFont;
+[ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 7; ]
+class DateOld extends Ui.Drawable{
+    [ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 9; @position = 8; ]
+    var oldX;
+    [ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 10; @position = 8; ]
+    var oldY;
+    [ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 11; @position = 8; ]
+    var iconFont;
+    [ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 12; ]
+    function initialize(params) as Void {
+D_garmin_garminWatch_product_source_DateOld_mc_12_32_start:
+[ "D:\garmin\garminWatch\product\source\DateOld.mc" 13 2 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %params;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "D:\garmin\garminWatch\product\source\DateOld.mc" 14 8 ]
+        %tmp.6 = getm $.Toybox.WatchUi;
+        %tmp.7 = getv function %tmp.6 :loadResource;
+        %tmp.9 = getv ? :Rez;
+        %tmp.10 = getv %tmp.9 :Fonts;
+        %tmp.11 = getv %tmp.10 :dateFont;
+        %tmp.12 = invoke %tmp.6 %tmp.7(%tmp.11);
+        putv self :dateFont %tmp.12;
+[ "D:\garmin\garminWatch\product\source\DateOld.mc" 15 8 ]
+        %tmp.13 = getm $.Toybox.WatchUi;
+        %tmp.14 = getv function %tmp.13 :loadResource;
+        %tmp.16 = getv ? :Rez;
+        %tmp.17 = getv %tmp.16 :Fonts;
+        %tmp.18 = getv %tmp.17 :iconFont;
+        %tmp.19 = invoke %tmp.13 %tmp.14(%tmp.18);
+        putv self :iconFont %tmp.19;
+[ "D:\garmin\garminWatch\product\source\DateOld.mc" 17 8 ]
+        %tmp.21 = lgetv %params;
+        %tmp.23 = const :oldX;
+        %tmp.24 = agetv %tmp.21 %tmp.23;
+        putv self :oldX %tmp.24;
+[ "D:\garmin\garminWatch\product\source\DateOld.mc" 18 2 ]
+        %tmp.26 = lgetv %params;
+        %tmp.28 = const :oldY;
+        %tmp.29 = agetv %tmp.26 %tmp.28;
+        putv self :oldY %tmp.29;
+D_garmin_garminWatch_product_source_DateOld_mc_12_32_stop:
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 20; ]
+    function draw(dc) {
+D_garmin_garminWatch_product_source_DateOld_mc_20_21_start:
+[ "D:\garmin\garminWatch\product\source\DateOld.mc" 21 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = 0x330000;
+        %tmp.5 = getv ? :Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.6);
+[ "D:\garmin\garminWatch\product\source\DateOld.mc" 22 8 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :drawText;
+        %tmp.10 = getv ? :oldX;
+        %tmp.12 = getv ? :oldY;
+        %tmp.14 = getv ? :dateFont;
+        %tmp.15 = "周日 六月二十";
+        %tmp.17 = getv ? :Graphics;
+        %tmp.18 = getv %tmp.17 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12, %tmp.14, %tmp.15, %tmp.18);
+[ "D:\garmin\garminWatch\product\source\DateOld.mc" 24 8 ]
+        %tmp.19 = lgetv %dc;
+        %tmp.20 = getv function %tmp.19 :drawText;
+        %tmp.21 = 120;
+        %tmp.22 = 120;
+        %tmp.24 = getv ? :iconFont;
+        %tmp.25 = "3";
+        %tmp.27 = getv ? :Graphics;
+        %tmp.28 = getv %tmp.27 :TEXT_JUSTIFY_CENTER;
+        invoke %tmp.19 %tmp.20(%tmp.21, %tmp.22, %tmp.24, %tmp.25, %tmp.28);
+D_garmin_garminWatch_product_source_DateOld_mc_20_21_stop:
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 28; ]
+    function getNowDay() {
+    }
+}
+[ @file = "D:\garmin\garminWatch\product\source\DateOld.mc"; @line = 1; ]
+<init> {
+}

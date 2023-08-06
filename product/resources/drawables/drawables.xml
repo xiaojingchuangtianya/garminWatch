@@ -1,0 +1,18 @@
+<drawables>
+    <bitmap id="LauncherIcon" filename="launcher_icon.png" />
+    <bitmap id="BackgroundImg" filename="backgroundImg-0.1.png">
+        <palette disableTransparency="false">
+            <!-- <color>2dacc6</color>
+            <color>52c0c8</color>
+            <color>dde0e6</color>
+            <color>044a85</color>
+            <color>049dc8</color>
+            <color>85d5d7</color>
+            <color>057dae</color>
+            <color>0464b4</color>
+            <color>54dcf9</color>
+            <color>0a6d94</color>
+            <color>bcb4e0</color> -->
+        </palette>
+    </bitmap>
+</drawables>

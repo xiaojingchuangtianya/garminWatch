@@ -1,0 +1,67 @@
+[ @file = "D:\garmin\garminWatch\product\source\DateNew.mc"; @line = 1; ]
+using Toybox.WatchUi as :Ui;
+[ @file = "D:\garmin\garminWatch\product\source\DateNew.mc"; @line = 2; ]
+using Toybox.Application as :App;
+[ @file = "D:\garmin\garminWatch\product\source\DateNew.mc"; @line = 3; ]
+using Toybox.Graphics as :Gfx;
+[ @file = "D:\garmin\garminWatch\product\source\DateNew.mc"; @line = 4; ]
+using Toybox.System;
+[ @file = "D:\garmin\garminWatch\product\source\DateNew.mc"; @line = 7; ]
+class DateNew extends Ui.Drawable{
+    [ @file = "D:\garmin\garminWatch\product\source\DateNew.mc"; @line = 7; ]
+    <init> {
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\DateNew.mc"; @line = 7; ]
+    static
+    <init> {
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\DateNew.mc"; @line = 8; @position = 8; ]
+    var newX;
+    [ @file = "D:\garmin\garminWatch\product\source\DateNew.mc"; @line = 9; @position = 8; ]
+    var newY;
+    [ @file = "D:\garmin\garminWatch\product\source\DateNew.mc"; @line = 12; ]
+    function initialize(params) as Void {
+D_garmin_garminWatch_product_source_DateNew_mc_12_32_start:
+[ "D:\garmin\garminWatch\product\source\DateNew.mc" 13 2 ]
+        %tmp.2 = getv ? :Drawable;
+        %tmp.3 = getv function %tmp.2 :initialize;
+        %tmp.5 = lgetv %params;
+        invoke %tmp.2 %tmp.3(%tmp.5);
+[ "D:\garmin\garminWatch\product\source\DateNew.mc" 16 2 ]
+        %tmp.7 = lgetv %params;
+        %tmp.9 = const :newX;
+        %tmp.10 = agetv %tmp.7 %tmp.9;
+        putv self :newX %tmp.10;
+[ "D:\garmin\garminWatch\product\source\DateNew.mc" 17 2 ]
+        %tmp.12 = lgetv %params;
+        %tmp.14 = const :newY;
+        %tmp.15 = agetv %tmp.12 %tmp.14;
+        putv self :newY %tmp.15;
+D_garmin_garminWatch_product_source_DateNew_mc_12_32_stop:
+    }
+    [ @file = "D:\garmin\garminWatch\product\source\DateNew.mc"; @line = 20; ]
+    function draw(dc) {
+D_garmin_garminWatch_product_source_DateNew_mc_20_21_start:
+[ "D:\garmin\garminWatch\product\source\DateNew.mc" 21 8 ]
+        %tmp.1 = lgetv %dc;
+        %tmp.2 = getv function %tmp.1 :setColor;
+        %tmp.3 = 0x330000;
+        %tmp.5 = getv ? :Graphics;
+        %tmp.6 = getv %tmp.5 :COLOR_TRANSPARENT;
+        invoke %tmp.1 %tmp.2(%tmp.3, %tmp.6);
+[ "D:\garmin\garminWatch\product\source\DateNew.mc" 22 8 ]
+        %tmp.7 = lgetv %dc;
+        %tmp.8 = getv function %tmp.7 :drawText;
+        %tmp.10 = getv ? :newX;
+        %tmp.12 = getv ? :newY;
+        %tmp.14 = getv ? :DATEFont;
+        %tmp.15 = "08/6";
+        %tmp.17 = getv ? :Graphics;
+        %tmp.18 = getv %tmp.17 :TEXT_JUSTIFY_LEFT;
+        invoke %tmp.7 %tmp.8(%tmp.10, %tmp.12, %tmp.14, %tmp.15, %tmp.18);
+D_garmin_garminWatch_product_source_DateNew_mc_20_21_stop:
+    }
+}
+[ @file = "D:\garmin\garminWatch\product\source\DateNew.mc"; @line = 1; ]
+<init> {
+}
